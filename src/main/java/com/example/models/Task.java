@@ -2,16 +2,14 @@ package com.example.models;
 
 import com.example.models.enums.Mark;
 import com.example.models.enums.TypeOfWork;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Getter
+@Setter
 @Builder
 @Entity(name = "task")
 public class Task {
